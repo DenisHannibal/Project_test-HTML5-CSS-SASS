@@ -4,7 +4,7 @@
 .SlideshowGallery {
   position: relative ;
   z-index: 3;
-  margin: 5vw 10vw 10vw 5vw; 
+  margin: 5vw 10vw 0vw 5vw; 
 }
 .container {
    position: relative;

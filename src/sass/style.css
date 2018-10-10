@@ -155,4 +155,44 @@
   z-index: 3;
   margin: 3vw 0 0 0;
 }
+
+.section-confa {
+  background: url(../img/fond/blue_side.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.section-confa-title {
+  font-size: 2.15vw;
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  padding: 6vw 0 1vw 0;
+}
+
+.section-confa-decsr {
+  text-align: center;
+  font-size: 1.75vw;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  margin: 3vw 0 3vw 0;
+}
+
+.section-confa-iframe {
+  height: 24vw;
+  width: 44vw;
+}
+
+.section-confa-video {
+  position: relative;
+  text-align: center;
+  z-index: 4;
+  padding: 0 0 3vw 0;
+}
+
+.section-sopra {
+  background: url(../img/fond/red_side.jpg) center no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
