@@ -29,11 +29,11 @@
 
 .header:after {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
@@ -134,5 +134,25 @@
   .header-inner-download {
     padding: 1.5vw 0 5vw;
   }
+}
+
+.main {
+  background: url(../img/fond/5.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.main-text {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  padding: 5vw 10vw 5vw  10vw;
+}
+
+.main-text-decsr {
+  font-size: 1.75vw;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  margin: 3vw 0 0 0;
 }
 /*# sourceMappingURL=style.css.map */
